@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+    <style>
+        .whatsapp{
+            display: flex;
+        }
+        .slide{
+            border: 0px solid black;
+            background-color: rgb(73, 72, 72);
+            height: 100vh;
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .chats{
+            border: 0px solid black;
+            width: 50%;
+        
+        }
+        .chat{
+            border: 0px solid black;
+            width: 90%;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+        }
+        .search{
+            width: 380px;
+            border-radius: 30px;
+            height: 25px;
+        }
+        .chatbox{
+            height: 91%;
+            width: 98%;
+            border: 1px solid black;
+        }
+        .one{
+            border: 1px solid;
+            height: 6vh;
+        }
+        .icons{
+            position: relative;
+            top: 5px;
+        }
+        .icon{
+            display: flex;
+            font-size: 40px;
+            height: 40px;
+        }
+        .iconw{
+            font-size: 23px;
+            height: 40px;
+        }
+        .max{
+            display: flex;
+            position: relative;
+            top: 1px;
+        }
+    </style>
+</head>
+<body>
+<div class="whatsapp"> 
+    <div class="slide">
+        <div class="icons">
+            <div class="max"><ion-icon class="iconw" name="close-circle-outline"></ion-icon>
+            <ion-icon class="iconw"  name="remove-circle-outline"></ion-icon>
+            <ion-icon class="iconw"  name="chevron-down-circle-outline"></ion-icon></div>
+            <ion-icon class="icon" name="chatbubbles-outline"></ion-icon>
+            <ion-icon  class="icon" name="call-outline"></ion-icon>
+            <ion-icon  class="icon" name="cloud-circle-outline"></ion-icon><hr>
+            <ion-icon  class="icon" name="archive-outline"></ion-icon>
+            <ion-icon  class="icon" name="star-outline"></ion-icon>
+        </div>
+        <div class="bars"></div>
+    </div>
+    <div class="chats">
+        <div class="box">
+            <h3>chats</h3>
+            <h3>symbols</h3>
+
+        </div>
+        <div>
+            <input type="text" class="search">
+        </div>
+        <div class="chatbox">
+         <li class="one">chai</li>
+         <li class="one">abhi</li>
+         <li class="one">sam</li>
+         <li class="one">rakul</li>
+         <li class="one">loki</li>
+        </div>
+    </div>
+    <div class="chat"></div>
+</div>
+</body>
+</html>
